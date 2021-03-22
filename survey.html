@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="styleforsurvey.css">
+    <style></style>
+</head>
+<body>
+    <div id="ouside">
+<form action="backend.php" id="survey-form" method="POST">
+    <h1>Application For Enrollment in Amazon India Internship</h1>
+    <p id="description"><b>Note:</b>Form is to be submitted atleast 21 days prior to the last date of submission</p>
+
+
+    <!-- -----------------------perosnal deta-------------------------------------- -->
+
+<fieldset>
+<legend>Personal Details</legend>
+<div>
+<label for="Full Name" id="fname">Name:</label>
+<input type="text" id="fname" name="user_name" placeholder="Enter your Full Name"></div>
+<div>
+    <label for="Role of Interest">Your Role of Interest:</label>
+    <select name="Role of Interest" id="Role of Interest">
+        <option value="Software Developer">Software Developer</option>
+        <option value="Python Developer">Software Developer</option>
+        <option value="frontend Developer">Frontend Developer</option>
+        <option value="Backend Developer">Backend Developer</option>
+        <option value="php and Django Developer">php and Django Developer</option>
+        
+    </select>
+</div>
+<div>
+<label for="address">Address</label>
+<input type="text" id="address" name="address" placeholder="Enter Your Adress">
+</div>
+<div>
+<label for="email">Email:</label>
+<input type="text" id="email" name="email" placeholder="Enter Your Email">
+</div>
+<div>
+    <label for="number" id="number">Phone Number</label>
+    <input type="text" id="number" name="user_number" placeholder="Enter Your Mobile Number">
+
+</div>
+<div>
+    <label for="iq" id="iq">IQ:</label>
+    <input type="number" id="iq" name="iq" placeholder="Enter your IQ here">
+</div>
+
+<!-- -----------------------Radio Butoons ----------------------------->
+<div>
+<label for="gender">Gender:</label>
+<p>
+<input type="radio" id="gender" name="gender" value="Male" checked >Male<br>
+<input type="radio" id="gender" name="gender" value="Female">Female<br>
+<input type="radio" id="gender" name="gender" value="others">others
+    </p>
+</div>
+<label for="date">DOB:</label>
+<input type="date" id="date" name="date" placeholder="Enter Your Date Of Birth">
+</fieldset>
+
+<!-- ----------------------------Educational Details------------------------->
+<fieldset>
+<legend>Educational Details</legend>
+<div>
+    <label for="Qualification">Choose Your Qualification</label>
+    <select name="Qualification" id="Qualification">
+<option value="Btech in Computer science">Btech in Computer Science</option>
+<option value="Btech in Information Technology">Btech in Information Technology</option>
+<option value="Btech in Electronics and Communication">Btech in Electronics and Communication</option>
+<option value="Btech in Electrical Engineeering">Btech in Electrical Engineeer</option>
+<option value="Btech in Mechanical Engineering">Btech in Mechanical Engineer</option>
+    </select>
+</div>
+<div>
+    <label for="NameofUniversity" id="University"> University Name</label>
+    <input type="text" id="University" name="university" placeholder="Enter your University Name">
+
+</div>
+<div>
+    <label for="place">Place of Your Study</label>
+    <select name="yourplace" id="place">
+        <option value="India">India</option>
+        <option value="Germany">Germany</option>
+        <option value="Australia">Australia</option>
+        <option value="Newzealand">Newzealand</option>
+    </select>
+</div>
+</fieldset>
+<!-- -----------------------Text areas------------------------- -->
+<fieldset>
+    <legend>Essay Section</legend>
+    <div>
+        <label for="msg"></label>
+        <p>Write in 50 Words why you want to join our internship program</p>
+       <textarea name="msg" id="msg" cols="50" rows="4" placeholder="enter text here"></textarea>
+    </div>
+    <div>
+        <p>please upload your university transcript</p>
+        <button id="mybutton">Attach transcript</button>
+
+    </div>
+</fieldset>
+
+<div id="submitbutton">
+    <button type="submit">Send Your Application</button>
+</div>
+
+
+
+</form>
+ </div>
+</body>
+</html>

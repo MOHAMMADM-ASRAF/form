@@ -1,0 +1,72 @@
+form{
+    background-color: rgb(130, 182, 128);
+    margin: 0;
+    width: 70;
+    padding: 1em;
+    border: 1px solid rgba(18, 170, 170, 0.467);
+    border-radius: 1em;
+}
+#outside{
+    background-color: coral;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+body{
+    font-family:cursive;
+    font-size: 1.2em;
+    width: 800px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    text-shadow: rgb(155, 22, 22);
+}
+#survey-form{
+    background-color:cornsilk;
+    
+}
+legend{
+    font-weight: 700;
+}
+fieldset { 
+    border:1px solid lightgray;
+    margin: 10px;
+   }
+   #number{
+       width: 150px;
+   }
+   div+div{
+margin-top: 1em;
+   }
+   input,textarea{
+       width: 200px;
+       background-color: whitesmoke;
+   }
+   input:focus, textarea:focus {
+       border-color: orangered;
+   }
+   /* #mybutton{
+       padding-left: 90px;
+   } */
+   button {
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+    
+  }
+  #submitbutton {
+    display: flex; 
+    justify-content: center;
+  }
+  .button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+    

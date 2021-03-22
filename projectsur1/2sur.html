@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Form</title>
+
+</head>
+
+<body>
+    <div id="universityform">
+        <form action="backend,php" id="myform" method="POST">
+<h1>UNIVERSITY OF PENYNSYLVANIA</h1>
+<p><strong>Note:</strong>please fill  your Details Carefully</p><hr>
+<!-- ---------------------personal details------------------ -->
+<fieldset>
+<div label="Name">Name:<br>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname">
+    <label for="mname">Mid Name:</label>
+    <input type="text" id="mname" name="mname">
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname">
+</div>
+<div>
+    <label for="gender">Gender:<br></label>
+    <input type="radio" id="gender" name="gender" value="male" checked>Male<br>
+    <input type="radio" id="gender" name="gender" value="female">Female<br>
+    <input type="radio" id="gender" name="gender" value="others">others
+    
+</div>
+<div>
+    <label for="date">Date of:</label>
+    <input type="date" id="date" name="date">
+</div>
+<div>
+    <label for="country">Country:</label>
+    <select name="Country" id="Country">
+        <option value="Australia">Australia</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Germany">Germany</option>
+        <option value="Newzealand">Newzealand</option>
+        <option value="Denmark">Denmark</option>
+        <option value="france">france</option>
+        <option value="Singapore">Singapore</option>
+       
+    </select>
+</div>
+
+</fieldset>
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
